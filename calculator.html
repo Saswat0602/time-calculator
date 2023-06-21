@@ -1,0 +1,65 @@
+Create a time calculator to  show time left for new year. Its should change like a clock.
+Eg : 30 days 4 hrs 23 mins 14 seconds left for new year. This should change every second.
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIME-CALCULATOR</title>
+    <style>
+      .container {
+        /* text-align: center; */
+        width: 800px;
+        height: 500px;
+        margin: auto;
+        background-color: #c1ddfd;
+      }
+      h1 {
+        margin: 20 px;
+      }
+      .main {
+        padding: 20px;
+      }
+      .d,
+      .h,
+      .m,
+      .s {
+        margin: 15px;
+      }
+
+      p {
+        font-size: larger;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="h"></h1>
+      <h1 id="h2">Time remaining for  Next new Year </h1>
+
+      <section class="main">
+        <div class="d">
+          <h3>Days <span id="days"> </span></h3>
+        </div>
+
+        <div class="h">
+          <h3>Hours <span id="hours"> </span></h3>
+        </div>
+
+        <div class="m">
+          <h3>Minutes <span id="mins"> </span></h3>
+        </div>
+
+        <div class="s">
+          <h3>Seconds <span id="sec"> </span></h3>
+        </div>
+      </section>
+
+      <script src="calculator.js"></script>
+    </div>
+  </body>
+</html>
